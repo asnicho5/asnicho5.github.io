@@ -1,0 +1,191 @@
+html {
+    background-color: #cc9200;
+    /*image is not mine, it's from transparenttextures.com. It's built and maintained by Mike Hearn*/
+    background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+    
+}
+h1 {
+    font-family:'HanyiSentyMarshmallow';
+    font-weight:normal;
+    font-style:normal;
+    font-size:100px;
+    margin-bottom:5px;
+    margin-top:0px;
+}
+h2 {
+    font-family:'HanyiSentyMarshmallow';
+    font-weight:normal;
+    font-style:normal;
+    font-size:75px;
+    text-decoration:underline;
+}
+h3 {
+    font-family: Arial, Helvetica, tahoma, verdana, "??", SimSun, "????", STXihei, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size:30px;
+    margin-top:-50px;
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+h5 {
+    font-family: Arial, Helvetica, tahoma, verdana, "??", SimSun, "????", STXihei, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size:40px;
+    margin-top:-50px;
+    margin-bottom:10px;
+    margin-left:20px;
+    margin-right:20px;
+}
+p {
+    font-family: Arial, Helvetica, tahoma, verdana, "??", SimSun, "????", STXihei, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size:25px;
+    margin-left:20px;
+    margin-right:20px;
+}
+h4 {
+    font-family: Arial, Helvetica, tahoma, verdana, "??", SimSun, "????", STXihei, sans-serif;
+    font-weight:normal;
+    font-style:normal;
+    font-size:30px;
+}
+@font-face {
+font-family: "HanyiSentyMarshmallow";
+/*The font is not mine*/
+src: url("HanyiSentyMarshmallow.ttf");
+}
+.whiteBackground {
+    background-color:white;
+    height:625px;
+    width:1000px;
+    align-items:center;
+    margin: auto;
+    margin-top:-40px;
+}
+/*Don't change the name of this! I know it looks wrong, but it's actually for ting.html*/
+.whiteBackgroundTing {
+    background-color:white;
+    height:1700px;
+    width:1000px;
+    align-items:center;
+    margin: auto;
+    margin-top:-40px;
+}
+
+.descDiv {
+    background-color:white;
+    margin-top:100px;
+    margin-bottom:-20px;
+}
+.buttonDiv {
+    margin-bottom:10px;
+    margin:0 auto;
+    align-items:center;
+}
+.bottomDiv {
+    margin:0 auto;
+    margin-top:10px;
+    align-items:center;
+}
+a {
+    padding:15px;
+    margin:5px;
+    background-color:white;
+    color:black;
+    font-size:40px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style:normal;
+    border: 2px solid black;
+    border-radius:5px;
+    display:inline-block;
+    text-decoration:none; 
+}
+
+.linkStyle {
+    padding:10px;
+    margin:5px;
+    background-color:white;
+    color:black;
+    font-size:20px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style:normal;
+    border: 2px solid black;
+    border-radius:5px;
+    display:inline-block;
+    text-decoration:none; 
+}
+
+.actualLink {
+    padding:15px;
+    margin:-5px;
+    background-color:white;
+    color:blue;
+    font-size:25px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style:normal;
+    border: 2px solid white;
+    border-radius:5px;
+    display:inline-block;
+    text-decoration:none; 
+    
+}
+
+b {
+    font-weight:100px;
+    text-decoration:solid;
+}
+
+.realLink {
+    color:blue;
+    font-size:25px;
+    background-color:white;
+    padding:0px;
+    margin:0px;
+    border:white;
+    
+}
+
+
+.greenString {
+    width:400px;
+    height:25px;
+    background-color:lime;
+}   
+.greenString:hover {background-color:#40cf40;}
+.greenString1 {
+    margin-top:35px;
+    width:400px;
+    height:25px;
+    background-color:lime;
+} 
+.greenString1:hover {background-color: #40cf40;}
+.grayString {
+    width:400px;
+    height:25px;
+    background-color:gray;
+}
+.grayString:hover {background-color:#757575;}
+.settingButton {
+    padding:15px;
+    margin:5px;
+    background-color:white;
+    color:black;
+    font-size:40px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-style:normal;
+    border: 2px solid black;
+    border-radius:5px;
+    display:inline-block;
+    text-decoration:none;
+}
+.settingButton:hover {background-color:#f2f2f2;}
+.tanDiv {
+    margin:auto;
+    width:750px;
+    background-color:#cc8108;
+    height:325px;
+}
